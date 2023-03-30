@@ -21,12 +21,6 @@
     "price": {
       "type": "decimal"
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "products"
-    },
     "image": {
       "type": "media",
       "multiple": true,
